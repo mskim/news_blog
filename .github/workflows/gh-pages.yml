@@ -13,5 +13,5 @@ jobs:
       - name: Build & Deploy to GitHub Pages
         with:
           REMOTE_BRANCH: gh-pages
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.NEWS_BLOG }}
         uses: yurikoval/middleman-gh-pages-action@master
